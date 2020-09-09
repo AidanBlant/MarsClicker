@@ -40,10 +40,10 @@
                                                     <color key="titleColor" red="0.031372549020000001" green="0.49803921569999998" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="goToBasePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vpj-c2-woR"/>
+                                                    <action selector="goToPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="khl-fs-vFo"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxT-sl-ezF">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxT-sl-ezF">
                                                 <rect key="frame" x="0.0" y="33.5" width="200" height="33"/>
                                                 <color key="backgroundColor" red="0.090196078430000007" green="0.21196654440000001" blue="0.22875735159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="00-Starmap-Truetype" family="00 Starmap Truetype" pointSize="24"/>
@@ -51,10 +51,10 @@
                                                     <color key="titleColor" red="0.031372549020000001" green="0.49803921569999998" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="goTo3DPrinter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x4s-H1-OP0"/>
+                                                    <action selector="goToPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EPt-ld-AXS"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FXU-YU-rhE">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FXU-YU-rhE">
                                                 <rect key="frame" x="0.0" y="66.5" width="200" height="33.5"/>
                                                 <color key="backgroundColor" red="0.090196078430000007" green="0.21196654440000001" blue="0.22875735159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="00-Starmap-Truetype" family="00 Starmap Truetype" pointSize="24"/>
@@ -62,7 +62,7 @@
                                                     <color key="titleColor" red="0.031372549020000001" green="0.49803921569999998" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="goToLabPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jdd-mY-r1A"/>
+                                                    <action selector="goToPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bZN-id-aL6"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -150,6 +150,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="panelSwitcherButtons" destination="a0P-MH-hKZ" id="jN4-O0-yD6"/>
                         <outlet property="resourcesTable" destination="pZF-7O-FV5" id="O9w-5Q-aRS"/>
                     </connections>
                 </viewController>
@@ -238,8 +239,8 @@
                     </navigationBar>
                     <connections>
                         <segue destination="Ecg-nn-S7Z" kind="relationship" relationship="rootViewController" id="82b-SI-fBq"/>
-                        <segue destination="YbL-WR-Czh" kind="show" identifier="ToLabSegue" id="GLI-vb-vhn"/>
-                        <segue destination="Ecg-nn-S7Z" kind="show" identifier="ToBaseSegue" id="uJc-o2-tFl"/>
+                        <segue destination="YbL-WR-Czh" kind="show" identifier="ToLabSegue" animates="NO" id="GLI-vb-vhn"/>
+                        <segue destination="Ecg-nn-S7Z" kind="show" identifier="ToBaseSegue" animates="NO" id="uJc-o2-tFl"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sot-DC-Fxo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

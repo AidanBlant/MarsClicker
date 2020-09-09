@@ -18,6 +18,7 @@
 		728839002501AEA200BD9DC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728838FF2501AEA200BD9DC1 /* Assets.xcassets */; };
 		728839032501AEA200BD9DC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728839012501AEA200BD9DC1 /* LaunchScreen.storyboard */; };
 		72F4B7742502A992003E7388 /* 00 Starmap Truetype.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72F4B7732502A992003E7388 /* 00 Starmap Truetype.ttf */; };
+		72FB0A022508748F00209294 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FB0A012508748F00209294 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		728839022501AEA200BD9DC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		728839042501AEA200BD9DC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72F4B7732502A992003E7388 /* 00 Starmap Truetype.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "00 Starmap Truetype.ttf"; sourceTree = "<group>"; };
+		72FB0A012508748F00209294 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				728838F52501AE9E00BD9DC1 /* SceneDelegate.swift */,
 				728838F72501AE9E00BD9DC1 /* MarsController.swift */,
 				728838F92501AE9E00BD9DC1 /* Main.storyboard */,
+				72FB0A012508748F00209294 /* DataManager.swift */,
 				726DFB8A250453F400D730DE /* ButtonsNavigationController.swift */,
 				726DFB842502B0F100D730DE /* ResourceExpandableCell.swift */,
 				726DFB852502B0F100D730DE /* ResourceExpandableCell.xib */,
@@ -158,6 +161,7 @@
 				728838FE2501AE9E00BD9DC1 /* MarsClicker.xcdatamodeld in Sources */,
 				728838F82501AE9E00BD9DC1 /* MarsController.swift in Sources */,
 				728838F42501AE9E00BD9DC1 /* AppDelegate.swift in Sources */,
+				72FB0A022508748F00209294 /* DataManager.swift in Sources */,
 				726DFB8B250453F400D730DE /* ButtonsNavigationController.swift in Sources */,
 				726DFB862502B0F100D730DE /* ResourceExpandableCell.swift in Sources */,
 				728838F62501AE9E00BD9DC1 /* SceneDelegate.swift in Sources */,
