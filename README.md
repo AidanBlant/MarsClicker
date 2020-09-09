@@ -1,2 +1,2 @@
-#MarsClicker
-##or: unnamed Mars Themed Incrementer Game
+# MarsClicker
+## or: unnamed Mars Themed Incrementer Game
