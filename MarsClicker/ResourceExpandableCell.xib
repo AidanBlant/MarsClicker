@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="00 Starmap Truetype.ttf">
+            <string>00-Starmap-Truetype</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ResourceExpandableCell" customModule="MarsClicker" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="soil:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ula-7g-yMk">
+                        <rect key="frame" x="2" y="0.0" width="41" height="18"/>
+                        <fontDescription key="fontDescription" name="00-Starmap-Truetype" family="00 Starmap Truetype" pointSize="20"/>
+                        <color key="textColor" red="0.031372549020000001" green="0.49803921569999998" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5000" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z3f-7H-Cy9">
+                        <rect key="frame" x="278" y="0.0" width="42" height="15.5"/>
+                        <fontDescription key="fontDescription" name="00-Starmap-Truetype" family="00 Starmap Truetype" pointSize="17"/>
+                        <color key="textColor" red="0.031372549020000001" green="0.49803921569999998" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+4.46/sec" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w1l-YG-NbI">
+                        <rect key="frame" x="252.5" y="15.5" width="67.5" height="12"/>
+                        <fontDescription key="fontDescription" name="00-Starmap-Truetype" family="00 Starmap Truetype" pointSize="13"/>
+                        <color key="textColor" red="0.031372549020000001" green="0.49803921569999998" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="\_________________________________________________________________________________________" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kbv-Nn-stR">
+                        <rect key="frame" x="5" y="18" width="246.5" height="4.5"/>
+                        <fontDescription key="fontDescription" name="00-Starmap-Truetype" family="00 Starmap Truetype" pointSize="5"/>
+                        <color key="textColor" red="0.031372549020000001" green="0.49803921569999998" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="\_______ Amount : 5000/5000" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="njL-KX-WeW">
+                        <rect key="frame" x="14" y="29" width="159" height="10"/>
+                        <fontDescription key="fontDescription" name="00-Starmap-Truetype" family="00 Starmap Truetype" pointSize="11"/>
+                        <color key="textColor" red="0.031372549020000001" green="0.49803921569999998" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="\" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UGi-WL-S7q">
+                        <rect key="frame" x="9" y="22.5" width="6" height="6.5"/>
+                        <fontDescription key="fontDescription" name="00-Starmap-Truetype" family="00 Starmap Truetype" pointSize="7"/>
+                        <color key="textColor" red="0.031372549020000001" green="0.49803921569999998" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.090216673910000003" green="0.21196654440000001" blue="0.22875735159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="njL-KX-WeW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="14" id="F2y-cb-iyJ"/>
+                    <constraint firstItem="UGi-WL-S7q" firstAttribute="top" secondItem="Kbv-Nn-stR" secondAttribute="bottom" id="KtI-yc-oNv"/>
+                    <constraint firstItem="Kbv-Nn-stR" firstAttribute="top" secondItem="ula-7g-yMk" secondAttribute="bottom" id="Mzy-fC-ckD"/>
+                    <constraint firstAttribute="trailing" secondItem="w1l-YG-NbI" secondAttribute="trailing" id="QtG-ya-2Mf"/>
+                    <constraint firstItem="w1l-YG-NbI" firstAttribute="leading" secondItem="Kbv-Nn-stR" secondAttribute="trailing" constant="1" id="VQw-pD-eeA"/>
+                    <constraint firstItem="ula-7g-yMk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="WB4-DW-QpE"/>
+                    <constraint firstItem="UGi-WL-S7q" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="9" id="eam-iQ-mnS"/>
+                    <constraint firstItem="Z3f-7H-Cy9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="egM-sE-3nD"/>
+                    <constraint firstItem="w1l-YG-NbI" firstAttribute="top" secondItem="Z3f-7H-Cy9" secondAttribute="bottom" id="ew8-G3-fVb"/>
+                    <constraint firstAttribute="trailing" secondItem="Z3f-7H-Cy9" secondAttribute="trailing" id="jBA-Xg-PSh"/>
+                    <constraint firstItem="njL-KX-WeW" firstAttribute="top" secondItem="UGi-WL-S7q" secondAttribute="bottom" id="nbA-mz-HiI"/>
+                    <constraint firstItem="ula-7g-yMk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="2" id="x9J-0y-WTx"/>
+                    <constraint firstItem="Kbv-Nn-stR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="yL8-xU-6m6"/>
+                    <constraint firstAttribute="trailing" secondItem="w1l-YG-NbI" secondAttribute="trailing" id="zS4-z2-Meg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="CurrentAmount" destination="Z3f-7H-Cy9" id="aA4-R4-DBn"/>
+                <outlet property="RateOfChange" destination="w1l-YG-NbI" id="sQG-lp-PUI"/>
+                <outlet property="ResourceName" destination="ula-7g-yMk" id="x8c-tH-Mfp"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="152.67857142857142"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -7,25 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		726DFB862502B0F100D730DE /* ResourceExpandableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726DFB842502B0F100D730DE /* ResourceExpandableCell.swift */; };
+		726DFB872502B0F100D730DE /* ResourceExpandableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 726DFB852502B0F100D730DE /* ResourceExpandableCell.xib */; };
+		726DFB8B250453F400D730DE /* ButtonsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726DFB8A250453F400D730DE /* ButtonsNavigationController.swift */; };
 		728838F42501AE9E00BD9DC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728838F32501AE9E00BD9DC1 /* AppDelegate.swift */; };
 		728838F62501AE9E00BD9DC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728838F52501AE9E00BD9DC1 /* SceneDelegate.swift */; };
-		728838F82501AE9E00BD9DC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728838F72501AE9E00BD9DC1 /* ViewController.swift */; };
+		728838F82501AE9E00BD9DC1 /* MarsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728838F72501AE9E00BD9DC1 /* MarsController.swift */; };
 		728838FB2501AE9E00BD9DC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728838F92501AE9E00BD9DC1 /* Main.storyboard */; };
 		728838FE2501AE9E00BD9DC1 /* MarsClicker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 728838FC2501AE9E00BD9DC1 /* MarsClicker.xcdatamodeld */; };
 		728839002501AEA200BD9DC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728838FF2501AEA200BD9DC1 /* Assets.xcassets */; };
 		728839032501AEA200BD9DC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728839012501AEA200BD9DC1 /* LaunchScreen.storyboard */; };
+		72F4B7742502A992003E7388 /* 00 Starmap Truetype.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72F4B7732502A992003E7388 /* 00 Starmap Truetype.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		726DFB842502B0F100D730DE /* ResourceExpandableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceExpandableCell.swift; sourceTree = "<group>"; };
+		726DFB852502B0F100D730DE /* ResourceExpandableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResourceExpandableCell.xib; sourceTree = "<group>"; };
+		726DFB8A250453F400D730DE /* ButtonsNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsNavigationController.swift; sourceTree = "<group>"; };
 		728838F02501AE9E00BD9DC1 /* MarsClicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsClicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		728838F32501AE9E00BD9DC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		728838F52501AE9E00BD9DC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		728838F72501AE9E00BD9DC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		728838F72501AE9E00BD9DC1 /* MarsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsController.swift; sourceTree = "<group>"; };
 		728838FA2501AE9E00BD9DC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		728838FD2501AE9E00BD9DC1 /* MarsClicker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MarsClicker.xcdatamodel; sourceTree = "<group>"; };
 		728838FF2501AEA200BD9DC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		728839022501AEA200BD9DC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		728839042501AEA200BD9DC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72F4B7732502A992003E7388 /* 00 Starmap Truetype.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "00 Starmap Truetype.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +68,15 @@
 			children = (
 				728838F32501AE9E00BD9DC1 /* AppDelegate.swift */,
 				728838F52501AE9E00BD9DC1 /* SceneDelegate.swift */,
-				728838F72501AE9E00BD9DC1 /* ViewController.swift */,
+				728838F72501AE9E00BD9DC1 /* MarsController.swift */,
 				728838F92501AE9E00BD9DC1 /* Main.storyboard */,
+				726DFB8A250453F400D730DE /* ButtonsNavigationController.swift */,
+				726DFB842502B0F100D730DE /* ResourceExpandableCell.swift */,
+				726DFB852502B0F100D730DE /* ResourceExpandableCell.xib */,
 				728838FF2501AEA200BD9DC1 /* Assets.xcassets */,
 				728839012501AEA200BD9DC1 /* LaunchScreen.storyboard */,
 				728839042501AEA200BD9DC1 /* Info.plist */,
+				72F4B7732502A992003E7388 /* 00 Starmap Truetype.ttf */,
 				728838FC2501AE9E00BD9DC1 /* MarsClicker.xcdatamodeld */,
 			);
 			path = MarsClicker;
@@ -129,6 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				728839032501AEA200BD9DC1 /* LaunchScreen.storyboard in Resources */,
+				72F4B7742502A992003E7388 /* 00 Starmap Truetype.ttf in Resources */,
+				726DFB872502B0F100D730DE /* ResourceExpandableCell.xib in Resources */,
 				728839002501AEA200BD9DC1 /* Assets.xcassets in Resources */,
 				728838FB2501AE9E00BD9DC1 /* Main.storyboard in Resources */,
 			);
@@ -142,8 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				728838FE2501AE9E00BD9DC1 /* MarsClicker.xcdatamodeld in Sources */,
-				728838F82501AE9E00BD9DC1 /* ViewController.swift in Sources */,
+				728838F82501AE9E00BD9DC1 /* MarsController.swift in Sources */,
 				728838F42501AE9E00BD9DC1 /* AppDelegate.swift in Sources */,
+				726DFB8B250453F400D730DE /* ButtonsNavigationController.swift in Sources */,
+				726DFB862502B0F100D730DE /* ResourceExpandableCell.swift in Sources */,
 				728838F62501AE9E00BD9DC1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.aidanblant.MarsClicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,7 +332,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.aidanblant.MarsClicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
