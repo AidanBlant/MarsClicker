@@ -70,19 +70,43 @@
 			children = (
 				728838F32501AE9E00BD9DC1 /* AppDelegate.swift */,
 				728838F52501AE9E00BD9DC1 /* SceneDelegate.swift */,
-				728838F72501AE9E00BD9DC1 /* MarsController.swift */,
+				72FB0A0425087BC300209294 /* Controllers */,
 				728838F92501AE9E00BD9DC1 /* Main.storyboard */,
-				72FB0A012508748F00209294 /* DataManager.swift */,
-				726DFB8A250453F400D730DE /* ButtonsNavigationController.swift */,
-				726DFB842502B0F100D730DE /* ResourceExpandableCell.swift */,
-				726DFB852502B0F100D730DE /* ResourceExpandableCell.xib */,
+				72FB0A0325087BAC00209294 /* Data */,
+				72FB0A0525087BD100209294 /* Views */,
 				728838FF2501AEA200BD9DC1 /* Assets.xcassets */,
 				728839012501AEA200BD9DC1 /* LaunchScreen.storyboard */,
 				728839042501AEA200BD9DC1 /* Info.plist */,
 				72F4B7732502A992003E7388 /* 00 Starmap Truetype.ttf */,
-				728838FC2501AE9E00BD9DC1 /* MarsClicker.xcdatamodeld */,
 			);
 			path = MarsClicker;
+			sourceTree = "<group>";
+		};
+		72FB0A0325087BAC00209294 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				72FB0A012508748F00209294 /* DataManager.swift */,
+				728838FC2501AE9E00BD9DC1 /* MarsClicker.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		72FB0A0425087BC300209294 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				728838F72501AE9E00BD9DC1 /* MarsController.swift */,
+				726DFB8A250453F400D730DE /* ButtonsNavigationController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		72FB0A0525087BD100209294 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				726DFB842502B0F100D730DE /* ResourceExpandableCell.swift */,
+				726DFB852502B0F100D730DE /* ResourceExpandableCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
